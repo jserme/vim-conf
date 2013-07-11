@@ -73,7 +73,7 @@ set incsearch
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 "设置每行的最大字符数，超过的话，将换行
-set textwidth=80
+"set textwidth=80
 
 "状态栏
 set laststatus=2

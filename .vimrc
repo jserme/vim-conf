@@ -16,8 +16,7 @@ Bundle 'wincent/Command-T'
 Bundle 'sleistner/vim-jshint'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
-Bundle 'tomtom/tlib_vim'
-Bundle 'kchmck/vim-coffee-script'
+"Bundle 'kchmck/vim-coffee-script'
 "Bundle 'garbas/vim-snipmate'
 
 " vim-scripts repos

@@ -13,6 +13,16 @@
 
 * `<c-p>`   打开快速搜索  
 
+* `<Leader>c<space>`   切换选择区域的注释 
+* `<Leader>cm`   选择区域多行注释 
+
+* <leader>gs :Gstatus
+* <leader>gc :Gcommit
+* <leader>gd :Gdiff
+* <leader>gb :Gblame
+* <leader>gl :Glog
+* <leader>gp :Git push
+
 * `ctrl+t` 快速开一个tab
 * `ctrl+j`  快速在当前光标处换行
 * `,tt`   打开tasklist

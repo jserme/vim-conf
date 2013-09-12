@@ -31,6 +31,8 @@
 
 * `,,w` 进入快速定位模式
 
+* `<c-y>,` 展开zendcoding
+
 ## 问题
 * 如果出现`NERDTree: 1 invalid bookmarks were read`, 这样一下`rm -rf * ~/.NERDTreeBookmarks`
 

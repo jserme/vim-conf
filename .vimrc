@@ -1008,3 +1008,6 @@ set pastetoggle=<F6>
 
 "TaskList
 map <Leader>ts <Plug>TaskList
+
+"zen coding"
+let g:user_emmet_mode='a'    "only enable normal mode functions."

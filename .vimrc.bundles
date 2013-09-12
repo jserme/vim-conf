@@ -242,7 +242,7 @@
     endif
 
     Bundle 'TaskList.vim'
-    Bundle 'wincent/Command-T'
+    Bundle 'mattn/emmet-vim'
 " }
 
 " General {

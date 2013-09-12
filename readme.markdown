@@ -3,6 +3,7 @@
 ## 安装
 * 使用[vundle](https://github.com/gmarik/vundle) 管理插件
 * vim-jsbeautify需要`git submodule update --init --recursive`
+* jsctags安装`git clone https://github.com/mozilla/doctorjs.git; make`
 
 
 ## 快捷键
@@ -27,6 +28,8 @@
 * `ctrl+j`  快速在当前光标处换行
 * `,tt`   打开tasklist
 * `F6`  粘贴，防止格式化
+
+* `,,w` 进入快速定位模式
 
 ## 问题
 * 如果出现`NERDTree: 1 invalid bookmarks were read`, 这样一下`rm -rf * ~/.NERDTreeBookmarks`

@@ -210,7 +210,6 @@
             Bundle 'amirh/HTML-AutoCloseTag'
             Bundle 'hail2u/vim-css3-syntax'
             Bundle 'tpope/vim-haml'
-            Bundle 'snipMate'
         endif
 
     " Ruby

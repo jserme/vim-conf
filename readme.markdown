@@ -33,6 +33,9 @@
 
 * `<c-y>,` 展开zendcoding
 
+## 注意事项
+* `sudo vim /etc/hosts` 改为 `vim sudo:/etc/hosts`
+
 ## 问题
 * 如果出现`NERDTree: 1 invalid bookmarks were read`, 这样一下`rm -rf * ~/.NERDTreeBookmarks`
 

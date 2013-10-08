@@ -1011,3 +1011,8 @@ map <Leader>ts <Plug>TaskList
 
 "zen coding"
 let g:user_emmet_mode='a'    "only enable normal mode functions."
+
+"默认打开NERDTree
+autocmd VimEnter * NERDTree
+autocmd BufEnter * NERDTreeMirror
+autocmd VimEnter * wincmd w

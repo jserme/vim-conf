@@ -1011,3 +1011,7 @@ map <Leader>ts <Plug>TaskList
 
 "zen coding"
 let g:user_emmet_mode='a'    "only enable normal mode functions."
+
+"normal时只有移动的时候才显示相对行号
+:au FocusLost * :set number
+:au FocusGained * :set relativenumber

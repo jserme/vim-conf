@@ -33,6 +33,12 @@
 
 * `<c-y>,` 展开zendcoding
 
+## vim diff 快捷键
+* `]c` 下一个差异处
+* `[c` 上一个差异处
+* `do` diff get, 从另一个窗口把差异补过来
+* `dp` diff put, 把差异放到另一个窗口里
+
 ## 注意事项
 * `sudo vim /etc/hosts` 改为 `vim sudo:/etc/hosts`
 

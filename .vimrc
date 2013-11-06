@@ -15,21 +15,6 @@
 "   You can find me at http://spf13.com
 " }
 
-" Before {
-
-    " Use local before if available {
-        if filereadable(expand("~/.vimrc.before.local"))
-            source ~/.vimrc.before.local
-        endif
-    " }
-
-    " Use fork before if available {
-        if filereadable(expand("~/.vimrc.before.fork"))
-            source ~/.vimrc.before.fork
-        endif
-    " }
-" }
-
 " Environment {
 
     " Basics {
@@ -58,19 +43,6 @@
 " }
 
 " Bundles {
-
-    " Use local bundles if available {
-        if filereadable(expand("~/.vimrc.bundles.local"))
-            source ~/.vimrc.bundles.local
-        endif
-    " }
-
-    " Use fork bundles if available {
-        if filereadable(expand("~/.vimrc.bundles.fork"))
-            source ~/.vimrc.bundles.fork
-        endif
-    " }
-
     " Use bundles config {
         if filereadable(expand("~/.vimrc.bundles"))
             source ~/.vimrc.bundles
@@ -1015,3 +987,8 @@ let g:user_emmet_mode='a'    "only enable normal mode functions."
 "normal时只有移动的时候才显示相对行号
 :au FocusLost * :set number
 :au FocusGained * :set relativenumber
+
+"超过屏幕宽度的换行
+set wrap
+set textwidth=100
+set linebreak

@@ -98,15 +98,14 @@
     " General
         if count(g:spf13_bundle_groups, 'general')
             Bundle 'scrooloose/nerdtree'
-            Bundle 'altercation/vim-colors-solarized'
-            Bundle 'spf13/vim-colors'
-            Bundle 'tpope/vim-surround'
+            Bundle 'altercation/vim-colors-solarized' 
+            Bundle 'spf13/vim-colors' 
+            Bundle 'tpope/vim-surround'  
             Bundle 'spf13/vim-autoclose'
             Bundle 'kien/ctrlp.vim'
             Bundle 'terryma/vim-multiple-cursors'
             Bundle 'vim-scripts/sessionman.vim'
             Bundle 'matchit.zip'
-            Bundle 'sudo.vim'
             if (has("python") || has("python3")) && exists('g:spf13_use_powerline') && !exists('g:spf13_use_old_powerline')
                 Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
             elseif exists('g:spf13_use_powerline') && exists('g:spf13_use_old_powerline')
@@ -116,17 +115,12 @@
             endif
 
             Bundle 'Lokaltog/vim-easymotion'
-            Bundle 'godlygeek/csapprox'
-            Bundle 'jistr/vim-nerdtree-tabs'
-            Bundle 'flazz/vim-colorschemes'
             Bundle 'mbbill/undotree'
-            Bundle 'myusuf3/numbers.vim'
             Bundle 'nathanaelkane/vim-indent-guides'
             if !exists('g:spf13_no_views')
                 Bundle 'vim-scripts/restore_view.vim'
             endif
             Bundle 'airblade/vim-gitgutter'
-            Bundle 'tpope/vim-abolish.git'
         endif
 
     " General Programming
@@ -134,8 +128,6 @@
             " Pick one of the checksyntax, jslint, or syntastic
             Bundle 'scrooloose/syntastic'
             Bundle 'tpope/vim-fugitive'
-            Bundle 'mattn/webapi-vim'
-            Bundle 'mattn/gist-vim'
             Bundle 'scrooloose/nerdcommenter'
             Bundle 'godlygeek/tabular'
             if executable('ctags')
@@ -193,19 +185,6 @@
             Bundle 'derekwyatt/vim-sbt'
         endif
 
-    " Haskell
-        if count(g:spf13_bundle_groups, 'haskell')
-            Bundle 'travitch/hasksyn'
-            Bundle 'dag/vim2hs'
-            Bundle 'Twinside/vim-haskellConceal'
-            Bundle 'lukerandall/haskellmode-vim'
-            Bundle 'ujihisa/neco-ghc'
-            Bundle 'eagletmt/ghcmod-vim'
-            Bundle 'Shougo/vimproc'
-            Bundle 'adinapoli/cumino'
-            Bundle 'bitc/vim-hdevtools'
-        endif
-
     " HTML
         if count(g:spf13_bundle_groups, 'html')
             Bundle 'amirh/HTML-AutoCloseTag'
@@ -230,19 +209,9 @@
     " Misc
         if count(g:spf13_bundle_groups, 'misc')
             Bundle 'tpope/vim-markdown'
-            Bundle 'spf13/vim-preview'
-            Bundle 'tpope/vim-cucumber'
-            Bundle 'quentindecock/vim-cucumber-align-pipes'
-            Bundle 'Puppet-Syntax-Highlighting'
-        endif
-
-    " Twig
-        if count(g:spf13_bundle_groups, 'twig')
-            Bundle 'beyondwords/vim-twig'
         endif
     endif
 
-    Bundle 'TaskList.vim'
     Bundle 'mattn/emmet-vim'
 " }
 

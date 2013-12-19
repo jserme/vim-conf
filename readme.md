@@ -1,6 +1,14 @@
 # VIM 配置
 
 ## 安装
+
+```
+git clone  http://github.com:jserme/vim-conf.git
+cp .vimrc* ~/
+vim
+BundleInstall
+```
+
 * 使用[vundle](https://github.com/gmarik/vundle) 管理插件
 * vim-jsbeautify需要`git submodule update --init --recursive`
 * jsctags安装`git clone https://github.com/mozilla/doctorjs.git; make`

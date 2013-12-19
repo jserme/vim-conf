@@ -43,10 +43,11 @@ BundleInstall
 * `<c-y>,` 展开zendcoding
 * `cs'<p>` 把配对的'换为<p>
 * `<ctrl-n>` 普通模式下选中多个同样的字符，然后处理
+* `<ctrl-k>`  联想操作的下拉
 
 * `:SessionList` 查看保存的session
 
-* `:UndotreeToggle` 查看保存的session
+* `:UndotreeToggle` 查看undo的列表
 
 * `:help Tabular` 行与行之间字符按特定的符号对齐对齐
 

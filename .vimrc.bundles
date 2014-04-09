@@ -126,7 +126,7 @@
     " General Programming
         if count(g:spf13_bundle_groups, 'programming')
             " Pick one of the checksyntax, jslint, or syntastic
-            Bundle 'scrooloose/syntastic'
+            " Bundle 'scrooloose/syntastic'
             Bundle 'tpope/vim-fugitive'
             Bundle 'scrooloose/nerdcommenter'
             Bundle 'godlygeek/tabular'
@@ -175,7 +175,7 @@
             Bundle 'pangloss/vim-javascript'
             Bundle 'briancollins/vim-jst'
             Bundle 'maksimr/vim-jsbeautify'
-            Bundle 'sleistner/vim-jshint'
+            Bundle 'Shutnik/jshint2.vim'
             Bundle 'kchmck/vim-coffee-script'
         endif
 

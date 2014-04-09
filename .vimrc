@@ -984,7 +984,12 @@ map <Leader>ts <Plug>TaskList
 "zen coding"
 let g:user_emmet_mode='a'    "only enable normal mode functions."
 
+
 "超过屏幕宽度的换行
 set wrap
 set textwidth=100
 set linebreak
+
+"设置jshint
+let jshint2_save = 1
+let jshint2_confirm = 0

@@ -194,10 +194,10 @@
 
     set nowrap                      " Wrap long lines
     set autoindent                  " Indent at the same level of the previous line
-    set shiftwidth=4                " Use indents of 4 spaces
+    set shiftwidth=2                " Use indents of 2 spaces
     set expandtab                   " Tabs are spaces, not tabs
-    set tabstop=4                   " An indentation every four columns
-    set softtabstop=4               " Let backspace delete indent
+    set tabstop=2                   " An indentation every four columns
+    set softtabstop=2               " Let backspace delete indent
     set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
     set splitright                  " Puts new vsplit windows to the right of the current
     set splitbelow                  " Puts new split windows to the bottom of the current
@@ -930,9 +930,9 @@ set fileencoding=euc-cn
 set fileencodings=ucs-bom,utf-8,euc-cn,chinese,prc,taiwan,cp936,gbk
 
 "tab转空格
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 "字体

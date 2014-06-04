@@ -995,4 +995,4 @@ let jshint2_save = 1
 let jshint2_confirm = 0
 
 "设置JsBeautify的配置文件
-let g:editorconfig_Beautifier='~/.editorconfig'
+let g:editorconfig_Beautifier=$HOME.'/.editorconfig'

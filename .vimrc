@@ -990,9 +990,16 @@ set wrap
 set textwidth=100
 set linebreak
 
-"设置jshint
-let jshint2_save = 1
-let jshint2_confirm = 0
+"设置eslint
+"let jshint2_save = 1
+"let jshint2_confirm = 0
+let g:syntastic_enable_js_checker = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers=["eslint"]
 
 "设置JsBeautify的配置文件
 let g:editorconfig_Beautifier=$HOME.'/.editorconfig'

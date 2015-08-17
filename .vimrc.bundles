@@ -87,7 +87,7 @@
     " In your .vimrc.bundles.local file"
     " list only the plugin groups you will use
     if !exists('g:spf13_bundle_groups')
-        let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'ruby', 'python', 'go', 'twig', 'javascript', 'haskell', 'html', 'misc', 'scala', 'rust']
+        let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'ruby', 'python', 'go', 'twig', 'javascript', 'haskell', 'html', 'misc', 'scala']
     endif
 
     " To override all the included bundles, put
@@ -102,6 +102,7 @@
             Bundle 'spf13/vim-colors' 
             Bundle 'tpope/vim-surround'  
             Bundle 'spf13/vim-autoclose'
+            Bundle 'jiangmiao/auto-pairs'
             Bundle 'kien/ctrlp.vim'
             Bundle 'terryma/vim-multiple-cursors'
             Bundle 'vim-scripts/sessionman.vim'
@@ -127,7 +128,7 @@
     " General Programming
         if count(g:spf13_bundle_groups, 'programming')
             " Pick one of the checksyntax, jslint, or syntastic
-            " Bundle 'scrooloose/syntastic'
+            Bundle 'scrooloose/syntastic'
             Bundle 'tpope/vim-fugitive'
             Bundle 'scrooloose/nerdcommenter'
             Bundle 'godlygeek/tabular'
@@ -207,10 +208,6 @@
     " Misc
         if count(g:spf13_bundle_groups, 'misc')
             Bundle 'tpope/vim-markdown'
-        endif
-    " Rust
-        if count(g:spf13_bundle_groups, 'rust')
-            Bundle 'rust-lang/rust.vim'
         endif
     endif
 
